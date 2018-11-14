@@ -19,5 +19,6 @@ t.test(as.integer(dfschool$X2012.2013.OVERALL.SCORE))t.test(as.integer(dfschool$
 t.test(as.integer(dfschool$X2012.2013.PROGRESS.CATEGORY.SCORE))
 t.test(as.integer(dfschool$X2012.2013.PERFORMANCE.CATEGORY.SCORE))
 
+t.test(as.integer(dfschool$X2012.2013.PERFORMANCE.CATEGORY.SCORE),as.integer(dfschool$X2012.2013.OVERALL.SCORE),alternative="two.sided")
 
 
